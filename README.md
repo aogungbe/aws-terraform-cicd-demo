@@ -4,7 +4,7 @@ This project demonstrates **cloud automation** using [Terraform](https://www.ter
 
 ---
 
-## 🚀 What This Project Does
+##  What This Project Does
 
 - **Automates AWS resource creation** with Terraform
 - **Uses GitHub Actions** to run Terraform automatically on every push to `main`
@@ -15,7 +15,7 @@ This project demonstrates **cloud automation** using [Terraform](https://www.ter
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 
 1. **Edit Terraform code** (`main.tf`)
 2. **Push changes to GitHub**
@@ -27,7 +27,7 @@ This project demonstrates **cloud automation** using [Terraform](https://www.ter
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 .
 ├── main.tf                   # Main Terraform configuration
 ├── .gitignore                # Excludes Terraform state/cache
@@ -38,14 +38,14 @@ This project demonstrates **cloud automation** using [Terraform](https://www.ter
 
 ---
 
-## 🔐 Security
+##  Security
 
 - **AWS secrets** (`AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`) are set as [GitHub repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets), NOT in code.
 - The `.terraform/` directory and all Terraform state files are **gitignored** (not committed).
 
 ---
 
-## 💡 How to Use This Project
+##  How to Use This Project
 1. **Fork or clone this repository**
 2. **Create an AWS IAM user** with programmatic access and permissions for EC2, S3, and VPC
 3. **Use `aws configure` locally** (optional, for your own tests)  
